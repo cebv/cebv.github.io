@@ -8,29 +8,34 @@
 	<style type="text/css">
 	body {font-size: 1.1em; line-height: 1.5em; max-width: 40em; color: #222222; background-color: #FFFFFF; margin: auto; padding: 0 2%;margin-left:35%}
 	img {max-width:100%;margin-top:.4em;}
-	sidebar {width: 28em;height: 100em;position: fixed;left: 0em;top: 0em;background-color: #EEEEEE;}
+	sidebar {width: 21em;height: 100%;position: fixed;left: 5em;top: 0em;background-color: #EEEEEE; line-height: 2.5em;font-size: 0.9em;}
 	h2 {text-align:center}
+	@media only screen and (max-width: 1400px) 
+	{
+		sidebar {width: 100%;height: 10em; position: static; line-height: 1.65em; font-size: 1.2em; text-align: center;background-color: #FFFFFF}
+		body {margin: auto}
+	}
 	a:link{ color: #0000AA; text-decoration:none;}
 	a:hover{ text-decoration:underline;}
 	a:visited{ color: #BB0000;text-decoration:none;}
 	p {margin: auto; margin-bottom:1.5em;text-indent: 2.1em; text-align: justify; text-justify: newspaper; max-width: 33em;}
+
 	</style>
 </head>
+
 <body>
-<sidebar>
-<ul style="list-style: none;line-height: 2.5em;font-size: 1.2em;">
-	<li><a href="#About Us" style="color:#444444">About Us</a></li>
-	<li><a href="#The Arizona Activist" style="color:#444444">The Arizona Activist</a></li>
-	<li><a href="#Arizona Progressive Group Directory" style="color:#444444">Arizona Progressive Group Directory</a></li>
-	<li><a href="#AZ Legislative Update" style="color:#444444">AZ Legislative Update</a></li>
-	<li><a href="#More ways to get involved" style="color:#444444">More ways to get involved</a></li>
-</ul>
-</sidebar>
-
-
 <img alt="Civic Engagement Beyond Voting" src="https://i.imgur.com/FmLxr7Z.png"/>
-
 <aside><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></aside>
+
+<sidebar>
+<p style="text-indent:0em;margin-left:1.2em;margin-top:1em">
+	<a href="#About Us" style="color:#444444">About Us</a></br>
+	<a href="#The Arizona Activist" style="color:#444444">The Arizona Activist</a></br>
+	<a href="#Arizona Progressive Group Directory" style="color:#444444">Arizona Progressive Group Directory</a></br>
+	<a href="#AZ Legislative Update" style="color:#444444">AZ Legislative Update</a></br>
+	<a href="#More ways to get involved" style="color:#444444">More ways to get involved</a></br>
+</p>
+</sidebar>
 
 <hr id="About Us">
 <h2>About Us</h2>
